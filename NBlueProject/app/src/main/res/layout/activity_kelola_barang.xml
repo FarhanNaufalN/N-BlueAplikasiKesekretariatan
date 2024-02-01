@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgaja"
+    android:padding="20dp"
+    tools:context=".KelolaBarang">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah Barang"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <EditText
+        android:id="@+id/NamaBarangTambah"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layout"
+        android:drawableRight="@drawable/baseline_style_24"
+        android:drawablePadding="8dp"
+        android:inputType="text"
+        android:hint="Nama Barang"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/jumlahbarangtambah"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layout"
+        android:drawableRight="@drawable/baseline_storage_24"
+        android:drawablePadding="8dp"
+        android:inputType="number"
+        android:hint="Jumlah Barang"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/Tambahh"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Tambah Barang"
+        android:textSize="15sp"
+        app:cornerRadius="30dp" />
+
+</LinearLayout>

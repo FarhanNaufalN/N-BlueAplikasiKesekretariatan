@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:gravity="center"
+            android:background="#2d86cf"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+            <TextView
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:text="A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/namaanggota"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Farhan Naufal Nurdiansyah"/>
+            <TextView
+                android:id="@+id/jabatananggota"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ketua Dewan Eksekutif"/>
+            <TextView
+                android:id="@+id/angkatananggota"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2021"/>
+            <TextView
+                android:id="@+id/nohpanggota"
+                android:textAlignment="textEnd"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="081395538770"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
