@@ -1,5 +1,5 @@
 
-# README
+# N - Blue 
  
 ## Application Description:
 The secretarial application, developed using the Java programming language, aims to provide an effective solution for organizing member data and facilitating cross-organization/association item borrowing at UPI Cibiru Campus. This application is equipped with features that enable users to easily manage member data, record and track item borrowings, as well as manage information related to activities and available inventory.
@@ -42,3 +42,6 @@ Before release, the application undergoes a series of testing phases to ensure o
 4. View the IP address in cmd and copy the IP.
 5. Place the IP in the DB_Contract class and change the IP to match the one in cmd.
 6. Then run the APK on your phone.
+
+
+
