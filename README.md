@@ -1,6 +1,6 @@
 
 # README
-
+ 
 ## Application Description:
 The secretarial application, developed using the Java programming language, aims to provide an effective solution for organizing member data and facilitating cross-organization/association item borrowing at UPI Cibiru Campus. This application is equipped with features that enable users to easily manage member data, record and track item borrowings, as well as manage information related to activities and available inventory.
 
