@@ -37,7 +37,7 @@ Before release, the application undergoes a series of testing phases to ensure o
 ## How To Use
 
 1. Place the database in the local htdocs folder.
-2. To use it, run the Android Studio on your phone.
+2. To use it, run the Android Studio and your phone.
 3. Connect your phone to the same Wi-Fi network as the localhost.
 4. View the IP address in cmd and copy the IP.
 5. Place the IP in the DB_Contract class and change the IP to match the one in cmd.
