@@ -43,5 +43,8 @@ Before release, the application undergoes a series of testing phases to ensure o
 5. Place the IP in the DB_Contract class and change the IP to match the one in cmd.
 6. Then run the APK on your phone.
 
+## Preview App
+
+![Mockup](https://github.com/FarhanNaufalN/N-BlueAplikasiKesekretariatan/blob/main/N%20Blue/Mock%20Up%20N%20Blue.jpg?raw=true)
 
 
